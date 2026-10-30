@@ -32,7 +32,7 @@ class Bibliotheque
 
     public function compter(): int
     {
-        return count($this->livres);
+        return count($this->livres)+1;
     }
 
     public function rechercher(string $mot): array
